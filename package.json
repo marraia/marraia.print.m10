@@ -1,28 +1,33 @@
 {
-  "name": "cordova-plugin-elgin-minipdv",
-  "version": "0.0.2",
-  "description": "a cool cordova plugin for elgin",
+  "name": "cordova-plugin-elgin-minipdv-marraia",
+  "version": "0.0.1",
+  "description": "Impressão no M10 para sistema eventflow",
   "cordova": {
-    "id": "cordova-plugin-elgin-minipdv",
+    "id": "cordova-plugin-elgin-minipdv-marraia",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Edzra/cordova-plugin-elgin-minipdv"
+    "url": "git+https://github.com/marraia/marraia.print.m10.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
     "elgin",
     "minipdv",
-    "M8"
+    "M8",
+    "eventflow"
   ],
-  "author": "elgin_dev",
+  "author": "marraia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Edzra/cordova-plugin-elgin-minipdv"
+    "url": "https://github.com/marraia/marraia.print.m10"
   },
-  "homepage": "https://github.com/Edzra/cordova-plugin-elgin-minipdv#readme"
+  "homepage": "https://github.com/Edzra/cordova-plugin-elgin-minipdv#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
